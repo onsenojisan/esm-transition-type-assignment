@@ -1,8 +1,13 @@
 # Transition-type assignment on intensive longitudinal affect data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21703785.svg)](https://doi.org/10.5281/zenodo.21703785)
+
 A pre-registered quantitative test for **alternative stable states in ESM (experience-sampling) mood
 series**, and what came back. One working day, 2026-07-30, deposited whole — including the parts that
 failed.
+
+The accompanying note is archived at doi:[10.5281/zenodo.21703785](https://doi.org/10.5281/zenodo.21703785),
+which includes a snapshot of this repository.
 
 **Result: no second attractor at beep scale.** In the only series long enough to analyse, all 11 units
 returned a single attractor and no barrier, at every bandwidth and every increment definition, with the
@@ -122,6 +127,18 @@ glossed. Subsequent frozen specifications in this line of work are committed bef
   Lichtwarck-Aschoff (2023), *Psychological Methods*,
   doi:[10.1037/met0000623](https://doi.org/10.1037/met0000623) (R package `fitlandr`). The estimator here
   is a Python port of the load-bearing estimator, not of the package.
+
+## Citing this
+
+Cite the **note**, not the repository — the note is where the claims and their limits are stated.
+
+> Aizawa, H. (2026). *No alternative stable state at beep scale in one long ESM affect series: a frozen
+> drift-field transition-type assignment, its measured power, and a retracted positive finding.* Zenodo.
+> https://doi.org/10.5281/zenodo.21703785
+
+**Which DOI.** `10.5281/zenodo.21703785` is the **concept** DOI and always resolves to the latest version —
+use it unless you need to pin. `10.5281/zenodo.21703786` is the **version** DOI for v0.3 specifically, which
+is what to cite if you are quoting a number that a later revision might change.
 
 ## Licence
 
