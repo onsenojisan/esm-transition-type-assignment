@@ -1,0 +1,8 @@
+# Participant data is never redistributed here. Obtain each dataset from its
+# original distributor under its own licence.
+work/acquired_data/
+
+__pycache__/
+*.pyc
+.venv/
+venv/

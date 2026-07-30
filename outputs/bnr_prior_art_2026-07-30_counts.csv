@@ -1,0 +1,12 @@
+leg,database,blocks,count
+P1_psych,pubmed,MECH,11944
+P1_psych,pubmed,MECH+TIP,323
+P1_psych,pubmed,MECH+TIP+PSYCH,17
+P1_psych,openalex,MECH+TIP+PSYCH,231
+P2_within,pubmed,MECH,11944
+P2_within,pubmed,MECH+TIP,323
+P2_within,pubmed,MECH+TIP+WITHIN,19
+P2_within,openalex,MECH+TIP+WITHIN,122
+P3_all,pubmed,MECH,11944
+P3_all,pubmed,MECH+TIP,323
+P3_all,openalex,MECH+TIP,3598

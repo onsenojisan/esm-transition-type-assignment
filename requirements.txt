@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+scikit-learn
+# Non-Markovian re-run only. Needs its runtime deps present first and build
+# isolation disabled -- see README:
+#   pip install matplotlib emcee tqdm ipyparallel celerite
+#   pip install --no-build-isolation antiCPy

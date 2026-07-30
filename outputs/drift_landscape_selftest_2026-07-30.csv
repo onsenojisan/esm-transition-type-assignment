@@ -1,0 +1,31 @@
+T,case,bw_mult,share_2plus,share_1,mean_count
+300,bistable 3SD,0.7,0.65,0.35,1.725
+300,bistable 3SD,1.0,0.475,0.525,1.5
+300,bistable 3SD,1.4,0.125,0.875,1.125
+300,bistable 4SD,0.7,0.825,0.175,1.95
+300,bistable 4SD,1.0,0.525,0.475,1.525
+300,bistable 4SD,1.4,0.475,0.525,1.475
+300,bistable 6SD,0.7,0.975,0.025,2.05
+300,bistable 6SD,1.0,0.9,0.1,1.9
+300,bistable 6SD,1.4,0.85,0.15,1.85
+300,monostable,0.7,0.525,0.475,1.625
+300,monostable,1.0,0.275,0.725,1.3
+300,monostable,1.4,0.0,1.0,1.0
+300,"polarized (bimodal, monostable)",0.7,0.075,0.925,1.075
+300,"polarized (bimodal, monostable)",1.0,0.025,0.975,1.025
+300,"polarized (bimodal, monostable)",1.4,0.0,1.0,1.0
+1476,bistable 3SD,0.7,0.75,0.25,1.875
+1476,bistable 3SD,1.0,0.525,0.475,1.55
+1476,bistable 3SD,1.4,0.35,0.65,1.35
+1476,bistable 4SD,0.7,0.975,0.025,2.05
+1476,bistable 4SD,1.0,0.975,0.025,2.025
+1476,bistable 4SD,1.4,0.75,0.25,1.75
+1476,bistable 6SD,0.7,1.0,0.0,2.0
+1476,bistable 6SD,1.0,1.0,0.0,2.0
+1476,bistable 6SD,1.4,1.0,0.0,2.0
+1476,monostable,0.7,0.15,0.85,1.15
+1476,monostable,1.0,0.05,0.95,1.05
+1476,monostable,1.4,0.0,1.0,1.0
+1476,"polarized (bimodal, monostable)",0.7,0.05,0.95,1.05
+1476,"polarized (bimodal, monostable)",1.0,0.0,1.0,1.0
+1476,"polarized (bimodal, monostable)",1.4,0.0,1.0,1.0
