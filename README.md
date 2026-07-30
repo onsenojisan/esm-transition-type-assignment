@@ -118,7 +118,10 @@ glossed. Subsequent frozen specifications in this line of work are committed bef
 ## Related
 
 - Pre-registered hysteresis test (decline arm ↔ recovery arm), frozen and **un-run** for want of a
-  qualifying dataset: doi:[10.5281/zenodo.21366132](https://doi.org/10.5281/zenodo.21366132). Hysteresis is
+  qualifying dataset: doi:[10.5281/zenodo.21366131](https://doi.org/10.5281/zenodo.21366131) — the **concept**
+  DOI, which resolves to the current frozen version (v0.2 + Amendment 1 as of 2026-07-30). An earlier
+  revision of this README and of the deposited note cite the version DOI `21366132`, which is the
+  **2026-07-04 v0.1** and predates Amendment 1. Hysteresis is
   absent from Cui et al.'s framework — the word does not occur in the paper — so that question is
   orthogonal to the classification tested here rather than contained in it.
 - Bayesian Langevin estimation: Hessler & Kamps (2025), *Nature Communications*,
