@@ -174,8 +174,10 @@ Cite the **note**, not the repository — the note is where the claims and their
 > https://doi.org/10.5281/zenodo.21703785
 
 **Which DOI.** `10.5281/zenodo.21703785` is the **concept** DOI and always resolves to the latest version —
-use it unless you need to pin. `10.5281/zenodo.21703786` is the **version** DOI for v0.3 specifically, which
-is what to cite if you are quoting a number that a later revision might change.
+use it unless you need to pin. The version DOIs are `10.5281/zenodo.21712591` for **v0.4** (current) and
+`10.5281/zenodo.21703786` for v0.3. Cite a version DOI only when quoting a number a later revision might
+change — and note that **v0.4 changed one**: v0.3's power figures are stated without the response-style
+condition.
 
 ## Licence
 
