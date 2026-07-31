@@ -121,7 +121,26 @@ pip install --no-build-isolation antiCPy
 ```
 
 `work/make_or_break_offline/` and `work/comeasurement_*.py` are dependencies of the analysis scripts,
-included so the code here is **byte-identical to what was run** rather than a slimmed-down fork.
+included so the code here is **byte-identical to what was run** rather than a slimmed-down fork. Concretely:
+
+- `make_or_break_offline/calibrate_structure_gate.py` supplies the two generators (`bistable`, `unimodal`)
+  that every calibration in this repository is built on, and `structure_gate.py` is its own dependency
+  (Gaussian-mixture and Silverman modality tests). Only the two generators are used here.
+- `comeasurement_systematic_search.py` supplies the HTTP helpers (`_get`, PubMed and Europe PMC queries)
+  reused by the prior-art scan; `comeasurement_screen.py` is its screening-regex module.
+
+### The note, and checking the PDF against its source
+
+`outputs/note_esm_transition_type_null_v0.4_2026-07-30.pdf` is generated from
+`outputs/note_esm_transition_type_null_v0.4_2026-07-30.md`, which is in this repository so the two can be
+compared. To regenerate and confirm they correspond:
+
+```bash
+python work/md_to_pdf.py   outputs/note_esm_transition_type_null_v0.4_2026-07-30.md   /tmp/regenerated.pdf
+```
+
+The converter is `reportlab`-based and deterministic in content but not byte-for-byte (it embeds a
+timestamp), so compare the extracted text rather than the file hashes.
 
 ## Provenance — one honest limit
 
