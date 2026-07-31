@@ -14,6 +14,21 @@ returned a single attractor and no barrier, at every bandwidth and every increme
 instrument's power measured rather than assumed: 80% against a genuine deep-well bistable generator at that
 length, 92.5–100% against 4–6 SD separation, at a 2.5% false-alarm rate.
 
+> **v0.4 makes that null conditional.** Those power figures were measured with **no response-style
+> distortion**. Under a 20% central-tendency compression — an ordinary property of Likert self-report —
+> detection of a 6 SD separation falls from 100% to **5%**, while false alarms stay at zero. So the null is
+> informative about series whose respondent used the scale without substantial compression and uninformative
+> about series whose respondent did not, and which describes this participant is **not established**. Four of
+> the ten items also deliver only **1.4–2.8 effective response levels**. See
+> [`response_style_compression_result`](outputs/response_style_compression_result_2026-07-30.md) and
+> [`compression_vs_quiet_result`](outputs/compression_vs_quiet_result_2026-07-30.md).
+
+Three further catastrophe flags were examined after the v0.3 deposit — **inaccessibility** (negative, 93%
+power against a real barrier) and **anomalous variance** (non-stationary but in the direction opposite to
+the flag's own mechanism), the latter under a specification **committed and pushed before its code was
+written**. With that, all three of Gilmore's *anticipatory* flags are accounted for and **none supports
+anticipation here**. See [`catastrophe_flags_primary_source`](outputs/catastrophe_flags_primary_source_2026-07-30.md).
+
 ---
 
 ## Read this first

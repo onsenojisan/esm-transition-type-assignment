@@ -1,0 +1,29 @@
+case,floor_frac,share_flag
+bistable 2SD,0.0,0.0
+bistable 2SD,0.002,0.0
+bistable 2SD,0.005,0.0
+bistable 2SD,0.01,0.0
+bistable 3SD,0.0,0.0
+bistable 3SD,0.002,0.0
+bistable 3SD,0.005,0.0
+bistable 3SD,0.01,0.0
+bistable 4SD,0.0,0.0
+bistable 4SD,0.002,0.0
+bistable 4SD,0.005,0.0
+bistable 4SD,0.01,0.0
+bistable 6SD,0.0,0.0
+bistable 6SD,0.002,0.0
+bistable 6SD,0.005,0.0
+bistable 6SD,0.01,0.0
+deep well 6SD,0.0,0.0
+deep well 6SD,0.002,0.1
+deep well 6SD,0.005,0.4
+deep well 6SD,0.01,0.925
+monostable,0.0,0.0
+monostable,0.002,0.0
+monostable,0.005,0.0
+monostable,0.01,0.0
+polarized,0.0,0.0
+polarized,0.002,0.0
+polarized,0.005,0.0
+polarized,0.01,0.0
